@@ -467,107 +467,169 @@ export const userRows = [
   },
 ];
 
-export const products = [
-  {
-    id: 1,
-    img: "https://store.sony.com.au/on/demandware.static/-/Sites-sony-master-catalog/default/dw1b537bbb/images/PLAYSTATION5W/PLAYSTATION5W.png",
-    title: "Playstation 5 Digital Edition",
-    color: "white",
-    producer: "Sony",
-    price: "$250.99",
-    createdAt: "01.02.2023",
-    inStock: true,
-  },
-  {
-    id: 2,
-    img: "https://www.pngmart.com/files/6/Dell-Laptop-PNG-Image.png",
-    title: "Dell Laptop KR211822",
-    color: "black",
-    producer: "Dell",
-    price: "$499.99",
-    createdAt: "01.02.2023",
-    inStock: true,
-  },
-  {
-    id: 3,
-    img: "http://images.samsung.com/is/image/samsung/uk-led-tv-hg40ed670ck-hg40ed670ckxxu-001-front",
-    title: "Samsung TV 4K SmartTV",
-    color: "gray",
-    producer: "Samsung",
-    price: "$999.49",
-    createdAt: "01.02.2023",
-    inStock: true,
-  },
-  {
-    id: 4,
-    img: "https://raylo.imgix.net/iphone-14-blue.png",
-    title: "Apple Iphone 14 Pro Max",
-    color: "white",
-    producer: "Apple",
-    price: "$799.49",
-    createdAt: "01.02.2023",
-    inStock: true,
-  },
-  {
-    id: 5,
-    img: "https://www.signify.com/b-dam/signify/en-aa/about/news/2020/20200903-movie-night-essentials-popcorn-ice-cream-and-the-new-philips-hue-play-gradient-lightstrip/packaging-lighstrip.png",
-    title: "Philips Hue Play Gradient",
-    color: "rainbow",
-    producer: "Philips",
-    price: "$39.99",
-    createdAt: "01.02.2023",
-  },
-  {
-    id: 6,
-    img: "https://www.smartworld.it/wp-content/uploads/2019/09/High_Resolution_PNG-MX-Master-3-LEFT-GRAPHITE.png",
-    title: "Logitech MX Master 3",
-    color: "black",
-    producer: "Logitech",
-    price: "$59.49",
-    createdAt: "01.02.2023",
-    inStock: true,
-  },
-  {
-    id: 7,
-    img: "https://www.pngarts.com/files/7/Podcast-Mic-PNG-Picture.png",
-    title: "Rode Podcast Microphone",
-    color: "gray",
-    producer: "Rode",
-    price: "$119.49",
-    createdAt: "01.02.2023",
-  },
-  {
-    id: 8,
-    img: "https://5.imimg.com/data5/SW/VM/MY-5774620/toshiba-split-ac-2-ton-3-star-rated-ras-24s3ks-500x500.png",
-    title: "Toshiba Split AC 2",
-    color: "white",
-    producer: "Toshiba",
-    price: "$899.99",
-    createdAt: "01.02.2023",
-    inStock: true,
-  },
-  {
-    id: 9,
-    img: "https://img.productz.com/review_image/102489/preview_sony-kdl-50w800b-50-inch-hdtv-review-superb-picture-102489.png",
-    title: "Sony Bravia KDL-47W805A",
-    color: "black",
-    producer: "Sony",
-    price: "$970.49",
-    createdAt: "01.02.2023",
-  },
-  {
-    id: 10,
-    img: "https://venturebeat.com/wp-content/uploads/2015/07/As_AO1-131_gray_nonglare_win10_03.png?fit=1338%2C1055&strip=all",
-    title: "Acer Laptop 16 KL-4804",
-    color: "black",
-    producer: "Acer",
-    price: "$599.99",
-    createdAt: "01.02.2023",
-    inStock: true,
-  },
-];
+export const data = {
+  "products": [
+      {
+          "id": 'T1',
+          "name": 'Men vi sinh Bacillus clausii',
+          "price": '80000',
+          "url": 'https://hanvet.com.vn/uploads/S%E1%BA%A3n%20ph%E1%BA%A9m/Probiotic/vi%20khu%E1%BA%A9n/Bacillus%20clausii%201%20kg%20s%E1%BB%ADa%20n%E1%BB%99i%20dung.jpg'
+      },
+      {
+          "id": 'T2',
+          "name": 'Men vi sinh Bacillus coagulans',
+          "price": '300000',
+          "url": 'https://hanvet.com.vn/uploads/S%E1%BA%A3n%20ph%E1%BA%A9m/Probiotic/vi%20khu%E1%BA%A9n/Men%20vi%20sinh%20Bacillus%20coagulans%201%20kg.jpg'
+      },
+      {
+          "id": 'T3',
+          "name": 'Vacxin PARVO',
+          "price": '500000',
+          "url": 'https://hanvet.com.vn/uploads/S%E1%BA%A3n%20ph%E1%BA%A9m/v%E1%BA%AFc%20xin/Ch%C3%B3%20m%C3%A8o/hop%20Vac%20xin%20Pavo.png'
+      },
+      {
+          "id": 'T4',
+          "name": "Vacxin dại chó mèo Rabiva",
+          "price": '500000',
+          "url": 'https://hanvet.com.vn/uploads/S%E1%BA%A3n%20ph%E1%BA%A9m/v%E1%BA%AFc%20xin/Ch%C3%B3%20m%C3%A8o/Rabiva.png'
+      },
+      {
+          "id": 'T5',
+          "name": "Hanvit-K&C",
+          "price": '500000',
+          "url": 'https://hanvet.com.vn/vn/uploads/HASP/hanvit%20kc.jpg'
+      },
+      {
+          "id": 'T6',
+          "name": "Hantril-100",
+          "price": '500000',
+          "url": 'https://hanvet.com.vn/vn/uploads/HASP/hantril-100.jpg'
+      },
+      {
+          "id": 'T7',
+          "name": "Halusep BGF",
+          "price": '500000',
+          "url": 'https://hanvet.com.vn/uploads/S%E1%BA%A3n%20ph%E1%BA%A9m/H%C3%B3a%20ch%E1%BA%A5t%20s%C3%A1t%20tr%C3%B9ng/HLS(1).jpg'
+      },
+      {
+          "id": 'T8',
+          "name": "HANPROCILLIN",
+          "price": '500000',
+          "url": 'https://hanvet.com.vn/uploads/S%E1%BA%A3n%20ph%E1%BA%A9m/Kh%C3%A1ng%20sinh/H%E1%BB%97n%20d%E1%BB%8Bch%20ti%C3%AAm/Hanprocillin.jpg'
+      },
+      {
+          "id": 'T9',
+          "name": "Vắc xin ND-IB",
+          "price": '500000',
+          "url": 'https://hanvet.com.vn/uploads/S%E1%BA%A3n%20ph%E1%BA%A9m/v%E1%BA%AFc%20xin/Gia%20c%E1%BA%A7m/ND-IB.png'
+      },
+      {
+          "id": 'T10',
+          "name": "HANMECTIN-100",
+          "price": '500000',
+          "url": 'https://hanvet.com.vn/vn/uploads/HASP/hanmectin-100.jpg'
+      },
+      {
+          "id": 'T11',
+          "name": "HAN-NE-SOL",
+          "price": '500000',
+          "url": 'https://hanvet.com.vn/vn/uploads/HASP/han-ne-sol%20100g.jpg'
+      },
+  ],
+  "danh_muc": [
+      {
+          "ten": "THUỐC KHÁNG SINH",
+          "loai": [
+              "Bột trộn thức ăn hoặc pha nước uống",
+              "Dung dịch uống, viên đặt, bôi, xịt",
+              "Bột pha tiêm",
+              "Dung dịch tiêm",
+              "Hỗn dịch tiêm"
+          ]
+      },
+      {
+          "ten": "THUỐC KÝ SINH TRÙNG",
+          "loai": [
+              "Dạng bôi, nhỏ",
+              "Dạng viên, bột uống, trộn thức ăn",
+              "Dạng tắm, phun sương, xịt ngoài da",
+              "Dạng uống",
+              "Dạng tiêm"
+          ]
+      },
+      {
+          "ten": "VẮC XIN",
+          "loai": [
+              "Vắc xin cho cá",
+              "Vắc xin cho Chó, mèo",
+              "Vắc xin cho gia cầm",
+              "Vắc xin cho lợn (heo)"
+          ]
+      },
+      {
+          "ten": "CHẾ PHẨM SINH HỌC",
+          "loai": [
+              "Vi sinh vật có lợi (probiotic)",
+              "Kháng thể"
+          ]
+      },
+      {
+          "ten": "HOOC MÔN ĐIỀU TIẾT SINH SẢN",
+          "loai": []
+      },
+      {
+          "ten": "VITAMIN & PREMIX",
+          "loai": [
+              "Nguyên liệu san lẻ",
+              "Dạng bột uống, trộn thức ăn",
+              "Dạng dung dịch tiêm, uống",
+          ]
+      },
+      {
+          "ten": "HÓA CHẤT SÁT TRÙNG, KHỬ KHUẨN",
+          "loai": [
+              "DẠNG BỘT",
+              "DẠNG DUNG DỊCH"
+          ]
+      },
+      {
+          "ten": "HÓA CHẤT DIỆT CÔN TRÙNG",
+          "loai": []
+      },
+      {
+          "ten": "THUỐC DÙNG TRONG THỦY SẢN",
+          "loai": [
+              "CHẾ PHẨM BỔ SUNG THỨC ĂN",
+              "CHẾ PHẨM XỬ LÝ AO HỒ",
+          ]
+      },
+      {
+          "ten": "THUỐC KHÁC",
+          "loai": [
+              "Kháng viêm, giải độc, hạ sốt, giảm đau",
+              "Đạm sữa",
+              "Cấp cứu sốc phản vệ, ngưng tim, hôn mê"
+          ]
+      },
+      {
+          "ten": "CHẾ PHẨM SÁT KHUẨN TAY DÙNG TRONG GIA DỤNG VÀ Y TẾ",
+          "loai": []
+      },
+      {
+          "ten": "SẢN PHẨM CHÓ MÈO",
+          "loai": []
+      },
+      {
+          "ten": "KINH NGHIỆM",
+          "loai": [
+              "Kỹ thuật nuôi",
+              "Bệnh và điều trị"
+          ]
+      }
+  ]
+};
 
-
+export default data;
 
 export const singleUser = {
   id: 1,
